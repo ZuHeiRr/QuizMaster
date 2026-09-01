@@ -88,16 +88,10 @@ export default class Question {
     this.timeRemaining = 15;
 
     this.handleKeyDown = this.handleKeyDown.bind(this);
-    this.correctSound = new Audio("../sound/dragon-studio-correct-472358.mp3");
-    this.wrongSound = new Audio(
-      "./sound/freesound_community-wronganswer-37702.mp3",
-    );
-    this.completeSound = new Audio(
-      "./sound/freesound_community-game-over-arcade-6435.mp3",
-    );
-    this.warningSound = new Audio(
-      "./sound/freesound_community-wronganswer-37702.mp3",
-    );
+    this.correctSound = new Audio("../sound/correct.mp3");
+    this.wrongSound = new Audio("../sound/wrong.mp3");
+    this.completeSound = new Audio("../sound/wrong.mp3");
+    this.warningSound = new Audio("../sound/wrong.mp3");
     // this.completeSound = new Audio("./sounds/complete.mp3");
   }
 
