@@ -90,13 +90,13 @@ export default class Question {
     this.handleKeyDown = this.handleKeyDown.bind(this);
     this.correctSound = new Audio("../sound/dragon-studio-correct-472358.mp3");
     this.wrongSound = new Audio(
-      "../sound/freesound_community-wronganswer-37702.mp3",
+      "./sound/freesound_community-wronganswer-37702.mp3",
     );
     this.completeSound = new Audio(
-      "../sound/freesound_community-game-over-arcade-6435.mp3",
+      "./sound/freesound_community-game-over-arcade-6435.mp3",
     );
     this.warningSound = new Audio(
-      "../sound/freesound_community-wronganswer-37702.mp3",
+      "./sound/freesound_community-wronganswer-37702.mp3",
     );
     // this.completeSound = new Audio("./sounds/complete.mp3");
   }
